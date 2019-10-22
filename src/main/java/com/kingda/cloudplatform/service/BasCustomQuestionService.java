@@ -1,6 +1,7 @@
 package com.kingda.cloudplatform.service;
 
 import com.kingda.cloudplatform.pojo.BasCustomQuestionDO;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -9,6 +10,7 @@ import java.util.List;
  * @description
  * @date 2019/10/17
  */
+@Service
 public interface BasCustomQuestionService {
     /**
      * 添加自定义问题
